@@ -1,0 +1,11 @@
+name: workflow caller
+
+permissions:
+  contents: read
+
+on: 
+ workflow_dispatch:
+
+jobs:
+  run-workflow-called:
+    uses: joana-gvb/GitHubActionsDemo/.github/workflows/demo-1.yml@main
