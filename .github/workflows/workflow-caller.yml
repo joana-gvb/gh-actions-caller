@@ -9,3 +9,5 @@ on:
 jobs:
   run-workflow-called:
     uses: joana-gvb/GitHubActionsDemo/.github/workflows/demo-1.yml@main
+    with:
+      customInput: "Hello from caller
